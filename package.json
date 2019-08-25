@@ -13,7 +13,7 @@
     "jest": "^24.8.0"
   },
   "dependencies": {
-    "assert-object-shape": "git+https://github.com/isaacSennerholt/assert-object-shape.git",
+    "assert-object-shape": "^1.0.0",
     "is-plain-object": "^3.0.0"
   }
 }
