@@ -1,14 +1,15 @@
 {
   "name": "object-adaptation-js",
   "version": "1.0.7",
-  "description": "🗿 Utility to adapt plain objects into desired shapes.",
+  "description": "Utility to adapt plain objects into desired shapes.",
   "main": "lib/objectAdaptationJs.js",
+  "author": "Isaac Sennerholt <isaac.sennerholt@gmail.com>",
+  "homepage": "https://github.com/isaacSennerholt/object-adaptation-js",
+  "repository": "github:isaacSennerholt/object-adaptation-js",
+  "license": "MIT",
   "scripts": {
-    "test": "./node_modules/.bin/jest",
-    "test-unit-all": "npm run test -- unit"
+    "test": "./node_modules/.bin/jest"
   },
-  "author": "isaacsennerholt <isaac.sennerholt@gmail.com>",
-  "license": "ISC",
   "devDependencies": {
     "jest": "^25.5.2"
   },

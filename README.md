@@ -6,7 +6,7 @@
 
 ## Usage
 
-Object Adaption Js allows you to adapt plain objects through mutations. Mutations are functions used to partially adapt object properties. Decide what properties to adapt and write structured mutations for it, quite easy! See below examples on how it can look in practice.
+Object Adaption Js allows you to adapt plain objects through mutations. Mutations are functions used to partially adapt object properties. Decide what properties to adapt and write structured mutations for it, quite easy! See below examples on how it may look in practice.
 
 ### Example 1: Capitalize Names
 
