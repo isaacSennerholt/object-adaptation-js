@@ -10,10 +10,9 @@
   "author": "isaacsennerholt <isaac.sennerholt@gmail.com>",
   "license": "ISC",
   "devDependencies": {
-    "jest": "^24.8.0"
+    "jest": "^25.5.2"
   },
   "dependencies": {
-    "assert-object-shape": "^1.0.0",
     "is-plain-object": "^3.0.0"
   }
 }
