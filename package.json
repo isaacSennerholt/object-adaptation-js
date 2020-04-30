@@ -1,6 +1,6 @@
 {
   "name": "object-adaptation-js",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Utility to adapt plain objects into desired shapes.",
   "main": "lib/objectAdaptationJs.js",
   "author": "Isaac Sennerholt <isaac.sennerholt@gmail.com>",
