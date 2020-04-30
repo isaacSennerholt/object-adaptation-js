@@ -8,13 +8,13 @@
 
 Object Adaption Js allows you to adapt plain objects through mutations. Mutations are functions used to partially adapt object properties. Decide what properties to adapt and write structured mutations for it, quite easy! See below examples on how it can look in practice.
 
-## Example 1: Capitalize Names
+### Example 1: Capitalize Names
 
 ```js
 const {
   createShapeMutation,
   createShapeConfiguration,
-  adaptToShape
+  adaptToShape,
 } = require('object-adaptation-js')
 
 const person = { firstName: 'john', lastName: 'doe' }
@@ -32,20 +32,20 @@ const lastNameMutation = createShapeMutation(['lastName'], (key, value) => {
 })
 
 const shapeConfiguration = createShapeConfiguration(['firstName', 'lastName'], {
-  mutations: [firstNameMutation, lastNameMutation]
+  mutations: [firstNameMutation, lastNameMutation],
 })
 
 // Results in: { firstName: 'John', lastName: 'Doe' }
 return adaptToShape(person, shapeConfiguration)
 ```
 
-## Example 2: Construct Fullname Property
+### Example 2: Construct Fullname Property
 
 ```js
 const {
   createShapeMutation,
   createShapeConfiguration,
-  adaptToShape
+  adaptToShape,
 } = require('object-adaptation-js')
 
 const person = { firstName: 'John', lastName: 'Doe' }
@@ -65,20 +65,20 @@ const fullNameMutation = createShapeMutation(
 )
 
 const shapeConfiguration = createShapeConfiguration(['firstName', 'lastName'], {
-  mutations: [fullNameMutation]
+  mutations: [fullNameMutation],
 })
 
 // Results in: { firstName: 'John', lastName: 'Doe', fullName: 'John Doe' }
 return adaptToShape(person, shapeConfiguration)
 ```
 
-## Example 3: Merge properties
+### Example 3: Merge properties
 
 ```js
 const {
   createShapeMutation,
   createShapeConfiguration,
-  adaptToShape
+  adaptToShape,
 } = require('object-adaptation-js')
 
 const person = {
@@ -88,8 +88,8 @@ const person = {
     street: 'John Doe Street 12',
     city: 'Stockholm',
     country: 'Sweden',
-    zip: 12345
-  }
+    zip: 12345,
+  },
 }
 
 const addressMutation = createShapeMutation(['address'], (key, value) => {
@@ -100,7 +100,7 @@ const addressMutation = createShapeMutation(['address'], (key, value) => {
 const shapeConfiguration = createShapeConfiguration(
   ['firstName', 'lastName', 'address'],
   {
-    mutations: [addressMutation]
+    mutations: [addressMutation],
   }
 )
 
