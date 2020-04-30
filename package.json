@@ -1,7 +1,7 @@
 {
   "name": "object-adaptation-js",
   "version": "1.0.3",
-  "description": "Utility to adapt object to shape.",
+  "description": "🗿 Utility to adapt plain objects into desired shapes.",
   "main": "lib/objectAdaptationJs.js",
   "scripts": {
     "test": "./node_modules/.bin/jest",
